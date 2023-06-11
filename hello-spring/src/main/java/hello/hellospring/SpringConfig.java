@@ -19,6 +19,12 @@ public class SpringConfig {
         return new MemberService(memberRepository);
     }
 
+//    //AOP 등록
+//    @Bean
+//    public TimeTraceAop TimeTraceAop() {
+//        return new TimeTraceAop();
+//    }
+
 //    @Bean
 //    public MemberRepository memberRepository(){
 //        return new JpaMemberRepository(em);
